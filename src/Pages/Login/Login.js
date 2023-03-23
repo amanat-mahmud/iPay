@@ -93,7 +93,7 @@ const Login = () => {
                 <div class="relative mb-6" data-te-input-wrapper-init>
                   <input
                     type="password"
-                    class="peer block min-h-[auto] w-full rounded border-2 border-primary bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-900 dark:placeholder:text-neutral-900 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                    class="peer block min-h-[auto] w-full rounded border-2 border-primary bg-transparent py-[0.32rem] px-3 leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-400 dark:placeholder:text-neutral-900 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                     id="exampleFormControlInput22"
                     placeholder="Password"
                   />
@@ -129,8 +129,8 @@ const Login = () => {
                   <p class="mt-2 mb-0 pt-1 text-sm font-semibold">
                     Don't have an account?
                     <a
-                      href="#!"
-                      class="text-danger transition duration-150 ease-in-out hover:text-danger-600 focus:text-danger-600 active:text-danger-700"
+                      href="signup"
+                      class=" text-blue-700 transition duration-150 ease-in-out hover:text-danger-600 focus:text-danger-600 active:text-danger-700"
                     >
                       Register
                     </a>
