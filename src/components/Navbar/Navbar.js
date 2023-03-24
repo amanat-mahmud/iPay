@@ -54,9 +54,9 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{menuItem}</ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn" href="logo">
-          Get started
+      <div className="navbar-end ">
+        <a className="btn bg-primary" href="logo">
+          Sign Up
         </a>
       </div>
     </div>
