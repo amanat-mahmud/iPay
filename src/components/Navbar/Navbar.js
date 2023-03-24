@@ -18,9 +18,6 @@ const Navbar = () => {
       <li>
         <a href="/login">login</a>
       </li>
-      <li>
-        <a href="/signup">Sign Up</a>
-      </li>
     </>
   );
   return (
@@ -58,7 +55,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{menuItem}</ul>
       </div>
       <div className="navbar-end ">
-        <a className="btn bg-primary" href="logo">
+        <a className="btn bg-primary" href="/signup">
           Sign Up
         </a>
       </div>
