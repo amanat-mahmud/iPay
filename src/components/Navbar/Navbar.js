@@ -18,6 +18,9 @@ const Navbar = () => {
       <li>
         <a href="/login">login</a>
       </li>
+      <li>
+        <a href="/signup">Sign Up</a>
+      </li>
     </>
   );
   return (
