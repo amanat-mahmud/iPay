@@ -30,13 +30,13 @@ const OurService = () => {
           </Link>
         </div>
         <div>
-          <Link to='paybill'>
+          <Link to='/paybill'>
             <FaLightbulb size={"80px"} />
             <p className="ml-4">Pay bill</p>
           </Link>
         </div>
         <div>
-          <Link to='recharge'>
+          <Link to='/recharge'>
             <FaMobileAlt size={"80px"} />
             <p className="ml-2">Recharge</p>
           </Link>
