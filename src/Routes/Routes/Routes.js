@@ -5,6 +5,7 @@ import Home from "../../Pages/Home/Home";
 import Login from "../../Pages/Login/Login";
 import Signup from "../../Pages/Signup/Signup";
 import Addmoney from "../../Pages/Home/OurService/Addmoney/Addmoney";
+import SendMoney from "../../Pages/Home/OurService/SendMoney/SendMoney";
 
 export const router = createBrowserRouter([
   {
@@ -29,7 +30,7 @@ export const router = createBrowserRouter([
     },
     {
         path: '/sendmoney',
-        element: <Home/>
+        element: <SendMoney/>
     },
     {
         path: '/payment',
