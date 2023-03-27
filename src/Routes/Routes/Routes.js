@@ -7,6 +7,8 @@ import Signup from "../../Pages/Signup/Signup";
 import Addmoney from "../../Pages/Home/OurService/Addmoney/Addmoney";
 import SendMoney from "../../Pages/Home/OurService/SendMoney/SendMoney";
 import Payment from "../../Pages/Home/OurService/Payment/Payment";
+import Recharge from "../../Pages/Home/OurService/Recharge/Recharge";
+import PayBil from "../../Pages/Home/OurService/PayBill/PayBill";
 
 export const router = createBrowserRouter([
   {
@@ -39,11 +41,11 @@ export const router = createBrowserRouter([
     },
     {
         path: '/paybill',
-        element: <Home/>
+        element: <PayBill/>
     },
     {
         path: '/recharge',
-        element: <Home/>
+        element: <Recharge/>
     }
     ],
     errorElement: <Error></Error>,
